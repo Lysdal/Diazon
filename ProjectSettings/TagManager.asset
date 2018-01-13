@@ -13,14 +13,14 @@ TagManager:
   - UI
   - 
   - 
-  - Red
-  - Blue
-  - Green
-  - Minimap
+  - Ground
+  - Walls
   - Player
-  - Obstacles
-  - Walkable
   - Enemy
+  - Friend
+  - 
+  - 
+  - 
   - 
   - 
   - 
