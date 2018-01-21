@@ -53,7 +53,11 @@ public class CameraRaycaster : MonoBehaviour
         Ray ray = _viewCamera.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hit;
-        Physics.Raycast(ray, out hit, distanceToBackground, layerMask);
-        return hit;
+        var hasHit = Physics.Raycast(ray, out hit, distanceToBackground, layerMask);
+        if (hasHit)
+        {
+            return hit;
+        }
+        return null;
     }
 }

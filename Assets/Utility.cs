@@ -1,12 +1,9 @@
 ﻿public enum Layer
 {
-    Red = 8,
-    Blue = 9,
-    Green = 10,
-    Minimap = 11,
-    Player = 12,
-    Obstacles = 13,
-    Walkable = 14,
-    Enemy = 15,
+    Walkable = 8,
+    Walls = 9,
+    Player = 10,
+    Enemy = 11,
+    Friend = 12,
     RaycastEndStop = -1
 }
